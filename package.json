@@ -1,0 +1,31 @@
+{
+  "name": "@ossrandom/azure-oauth-simplify",
+  "version": "0.0.1-beta-1.0.1",
+  "description": "Simple Azure OAuth to get user info",
+  "license": "MIT",
+  "repository": "https://github.com/RandomCodeSpace/azure-oauth-simplify",
+  "author": {
+    "email": "ak.nitrr13@gmail.com",
+    "name": "aksops"
+  },
+  "keywords": ["azure", "oauth", "simplify","ossrandom"],
+  "main": "src/index.jsx",
+  "scripts": {
+    "build": "rsbuild build",
+    "check": "biome check --write",
+    "dev": "rsbuild dev --open",
+    "format": "biome format --write",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^3.26.1",
+    "@azure/msal-react": "^2.1.1",
+    "react": "^18.3.1",
+    "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@rsbuild/core": "^1.0.1",
+    "@rsbuild/plugin-react": "^1.0.1"
+  }
+}
